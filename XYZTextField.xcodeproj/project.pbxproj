@@ -15,6 +15,7 @@
 		DD4EEF2E1D42E1BC003256D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4EEF2C1D42E1BC003256D5 /* LaunchScreen.storyboard */; };
 		DD4EEF391D42E1BC003256D5 /* XYZTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4EEF381D42E1BC003256D5 /* XYZTextFieldTests.m */; };
 		DD4EEF441D42E1BC003256D5 /* XYZTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4EEF431D42E1BC003256D5 /* XYZTextFieldUITests.m */; };
+		DD4EEF561D44A421003256D5 /* XHFormatTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4EEF551D44A421003256D5 /* XHFormatTextFiled.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD4EEF3F1D42E1BC003256D5 /* XYZTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYZTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4EEF431D42E1BC003256D5 /* XYZTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZTextFieldUITests.m; sourceTree = "<group>"; };
 		DD4EEF451D42E1BC003256D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4EEF541D44A421003256D5 /* XHFormatTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFormatTextFiled.h; sourceTree = "<group>"; };
+		DD4EEF551D44A421003256D5 /* XHFormatTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFormatTextFiled.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		DD4EEF1D1D42E1BC003256D5 /* XYZTextField */ = {
 			isa = PBXGroup;
 			children = (
+				DD4EEF541D44A421003256D5 /* XHFormatTextFiled.h */,
+				DD4EEF551D44A421003256D5 /* XHFormatTextFiled.m */,
 				DD4EEF211D42E1BC003256D5 /* AppDelegate.h */,
 				DD4EEF221D42E1BC003256D5 /* AppDelegate.m */,
 				DD4EEF241D42E1BC003256D5 /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4EEF561D44A421003256D5 /* XHFormatTextFiled.m in Sources */,
 				DD4EEF261D42E1BC003256D5 /* ViewController.m in Sources */,
 				DD4EEF231D42E1BC003256D5 /* AppDelegate.m in Sources */,
 				DD4EEF201D42E1BC003256D5 /* main.m in Sources */,
@@ -418,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYZTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xieyingze.demo.XYZTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = xieyingze.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYZTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xieyingze.demo.XYZTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = xieyingze.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -499,6 +505,7 @@
 				DD4EEF4A1D42E1BD003256D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4EEF4B1D42E1BD003256D5 /* Build configuration list for PBXNativeTarget "XYZTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				DD4EEF4D1D42E1BD003256D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4EEF4E1D42E1BD003256D5 /* Build configuration list for PBXNativeTarget "XYZTextFieldUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				DD4EEF501D42E1BD003256D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
